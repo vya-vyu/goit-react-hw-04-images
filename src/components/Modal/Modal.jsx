@@ -27,7 +27,7 @@ const Modal = ({ onClose, imageAlt, imageUrl }) => {
         }
       });
     };
-  }, []);
+  });
 
   return createPortal(
     <div className={s.Overlay} onClick={handleBackDrop}>
